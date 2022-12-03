@@ -14,6 +14,7 @@
 		7949C976293A53A30012820F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7949C975293A53A30012820F /* Assets.xcassets */; };
 		7949C979293A53A30012820F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7949C977293A53A30012820F /* LaunchScreen.storyboard */; };
 		79F33469293A5CE800C9880D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F33468293A5CE800C9880D /* NetworkManager.swift */; };
+		79F3348B293BDF7000C9880D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3348A293BDF7000C9880D /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7949C978293A53A30012820F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7949C97A293A53A30012820F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F33468293A5CE800C9880D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		79F3348A293BDF7000C9880D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7949C96C293A53A20012820F /* AppDelegate.swift */,
 				7949C96E293A53A20012820F /* SceneDelegate.swift */,
 				7949C970293A53A20012820F /* FeedViewController.swift */,
+				79F3348A293BDF7000C9880D /* Post.swift */,
 				79F33468293A5CE800C9880D /* NetworkManager.swift */,
 				7949C972293A53A20012820F /* Main.storyboard */,
 				7949C975293A53A30012820F /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				7949C971293A53A20012820F /* FeedViewController.swift in Sources */,
 				7949C96D293A53A20012820F /* AppDelegate.swift in Sources */,
 				7949C96F293A53A20012820F /* SceneDelegate.swift in Sources */,
+				79F3348B293BDF7000C9880D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
