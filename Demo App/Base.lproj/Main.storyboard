@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postCell" rowHeight="250" id="wVq-TW-gOh">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postCell" rowHeight="250" id="wVq-TW-gOh" customClass="PostTableViewCell" customModule="Demo_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wVq-TW-gOh" id="Sc7-MN-WEg">
@@ -87,6 +87,15 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="Jk4-jm-Bdc" secondAttribute="trailing" id="f4g-1f-CCT"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentsCountLabel" destination="HjF-9s-MEm" id="aMx-15-CXU"/>
+                                            <outlet property="commentsLabel" destination="HjF-9s-MEm" id="H2l-n6-oLE"/>
+                                            <outlet property="nameLabel" destination="Src-Sv-XRN" id="MQX-UE-VNR"/>
+                                            <outlet property="previewImageView" destination="CJg-vK-UTK" id="7xm-ji-kUi"/>
+                                            <outlet property="taglineLabel" destination="Fvb-yM-M5w" id="XxX-gX-D8X"/>
+                                            <outlet property="votesCountLabel" destination="Hgz-T2-Uda" id="h7N-rE-XF8"/>
+                                            <outlet property="votesLabel" destination="Hgz-T2-Uda" id="u7w-qr-678"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
