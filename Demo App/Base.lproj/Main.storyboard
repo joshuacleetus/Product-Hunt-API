@@ -89,12 +89,10 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="commentsCountLabel" destination="HjF-9s-MEm" id="aMx-15-CXU"/>
-                                            <outlet property="commentsLabel" destination="HjF-9s-MEm" id="H2l-n6-oLE"/>
                                             <outlet property="nameLabel" destination="Src-Sv-XRN" id="MQX-UE-VNR"/>
                                             <outlet property="previewImageView" destination="CJg-vK-UTK" id="7xm-ji-kUi"/>
                                             <outlet property="taglineLabel" destination="Fvb-yM-M5w" id="XxX-gX-D8X"/>
                                             <outlet property="votesCountLabel" destination="Hgz-T2-Uda" id="h7N-rE-XF8"/>
-                                            <outlet property="votesLabel" destination="Hgz-T2-Uda" id="u7w-qr-678"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -111,8 +109,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Feed" id="Ig1-pU-X5v"/>
                     <connections>
-                        <outlet property="feedTableView" destination="hWn-gt-oD8" id="ZSm-B8-Xcw"/>
-                        <outlet property="tableView" destination="hWn-gt-oD8" id="6jq-M3-lR5"/>
+                        <outlet property="feedTableView" destination="hWn-gt-oD8" id="Jiy-Pl-TtD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
